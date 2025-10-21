@@ -1,6 +1,7 @@
-# DamarDProject – Portfolio & Mini Site (HTML/CSS)
+# Portofolio-DamarNinuwidarma-PBP 23-10-2025
 
-Proyek ini adalah halaman portfolio sederhana dengan fokus **ringan, rapi, dan siap-salin**.  
+
+Proyek ini adalah halaman portfolio sederhana dengan menerapkan html/cs/js.  
 Struktur terdiri dari tiga halaman utama:
 
 - `index.html` – Landing/Portfolio (Home, About, Technical Skill, Projects, Contact)
@@ -9,63 +10,18 @@ Struktur terdiri dari tiga halaman utama:
 
 ---
 
-## 🔧 Tech Stack
-- **HTML5**, **CSS3**, sedikit **JS** seperlunya
-- Komponen UI bergaya **modern** (spacing lapang, rounded, card/shadow lembut)
-- Layout **responsif**: desktop → tablet → mobile (grid kolom menyesuaikan breakpoint)
-
----
-
-## 📁 Struktur Proyek (Ringkas)
-
-├─ assets/ # resource untuk halaman (ikon, css/js jika ada)
-├─ dist/ # file CSS/JS hasil pisah dari index (jika dipakai)
-├─ screenshots/ # <— khusus gambar untuk README (bebas nama, bukan "assets")
-├─ index.html
-├─ index2.html
-├─ index3.html
-└─ README.md
-
-
-> **Catatan**: Folder `screenshots/` hanya untuk dokumentasi README agar rapi dan tidak bercampur dengan aset website.
-
----
-
-## 💡 Fitur Utama
-
-1. **Landing Portfolio (index.html)**
-   - Hero teks + foto, tombol **Hubungi | kerjasama** dan **GitHub Stats**
-   - Section **About**, **Tech Stack** (kartu-kartu teknologi), **Projects** (kartu proyek), **Contact**
-   - Navigasi anchor (Home, About, Technical Skill, Projects, Contact)
-
-2. **Statistik Keaktifan (index2.html)**
-   - Bagian ringkas: total kontribusi, current/longest streak, breakdown bahasa (bar chart sederhana)
-   - Tombol **Kembali** ke halaman utama
-
-3. **Profil & Kerjasama (index3.html)**
-   - Heading **DamarDProject**, deskripsi singkat layanan, CTA **Ajukan Kerjasama** & **Hubungi Kami**
-   - Cards: **Nilai Utama**, **Keahlian (Laravel 12 + Laragon, Blade/Livewire, Tailwind/Bootstrap, Auth/Roles/Laporan)**, **Komitmen**
-
-4. **Responsif Penuh**
-   - **Desktop**: layout 2–3 kolom (cards leluasa), hero teks + gambar berdampingan
-   - **Tablet**: grid menjadi 2 kolom, ukuran tipografi menyesuaikan
-   - **Mobile**: 1 kolom penuh, navbar ringkas, tombol mudah ditekan
-
----
-
 ## 🖼️ Tangkapan Layar
-
-> Simpan gambar di `./screenshots/` (nama contoh di bawah bisa kamu ganti sesuai file yang kamu upload).
 
 ### 1) Home / Landing (index.html)
 **Desktop**
-![Home – Desktop](./screenshots/html1.png)
+![Home – Desktop](./screenshots/html1-.png)
 
 **Tablet**
-![Home – Tablet](./screenshots/home-tablet.png)
+![Home – Tablet](./screenshots/t1.png)
 
 **Mobile**
-![Home – Mobile](./screenshots/home-mobile.png)
+
+![Home – Mobile](./screenshots/t2.png)
 
 **Penjelasan**  
 - **Desktop**: Hero 2 kolom (teks kiri, foto kanan), spacing lapang, tombol CTA jelas.  
@@ -75,51 +31,37 @@ Struktur terdiri dari tiga halaman utama:
 ---
 
 ### 2) Tech Stack & Projects (index.html – bagian tengah)
+
+**About**
+![Tech Stack – Desktop](./screenshots/d2.png)
+
 **Tech Stack**
-![Tech Stack – Desktop](./screenshots/techstack-desktop.png)
+![Tech Stack – Desktop](./screenshots/d3.png)
 
 **Projects**
-![Projects – Desktop](./screenshots/projects-desktop.png)
+![Projects – Desktop](./screenshots/d4.png)
 
 **Penjelasan**  
-- **Tech Stack**: Kartu-kartu teknologi dengan icon/logo, bayangan lembut, dan radius besar.  
-- **Projects**: Grid kartu proyek; tiap kartu berisi judul, deskripsi singkat, dan badge/teknologi.
 
+Tampilan Tampilan Tersebut merupakan hasil gambar dari bagaian web ketika di scroll
 ---
 
 ### 3) Statistik Keaktifan (index2.html)
-![Statistik Keaktifan](./screenshots/stats-page.png)
+![Statistik Keaktifan](./screenshots/html2.png)
 
 **Penjelasan**  
-- Ringkasan kontribusi, streak, dan **Most Used Languages**. Tampilan bersih untuk presentasi cepat.
+- Ringkasan kontribusi, streak
 
 ---
 
 ### 4) Profil • Kerjasama • Kontak (index3.html)
-![Profil & Kerjasama](./screenshots/partnership-page.png)
+![Profil & Kerjasama](./screenshots/html3.png)
 
 **Penjelasan**  
 - Halaman profil ringkas: nilai utama, keahlian, komitmen. Ada CTA **Ajukan Kerjasama** & **Hubungi Kami**.
 
 ---
 
-## ▶️ Cara Menjalankan Secara Lokal
-
-1. Clone / download repo ini.
-2. Buka `index.html` langsung di browser **atau** gunakan ekstensi **Live Server** (VS Code).
-3. Aset tambahan untuk halaman (bila ada) tetap di `assets/` atau `dist/`.  
-   Gambar dokumentasi README tetap di `screenshots/`.
-
----
-
-## ✏️ Kustomisasi Konten
-
-- **Teks hero, about, dan kontak**: edit langsung di `index.html`.
-- **Kartu Tech Stack & Projects**: duplikasi elemen card, ubah icon/teksnya.
-- **Statistik (index2.html)**: sesuaikan angka/label yang kamu pakai.
-- **Profil (index3.html)**: ubah deskripsi layanan, nilai inti, dan CTA.
-
----
 
 ## 🔗 Tautan Penting
 
