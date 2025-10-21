@@ -38,7 +38,7 @@ Struktur terdiri dari tiga halaman utama:
 **Tech Stack**
 ![Tech Stack – Desktop](./screenshots/d3.png)
 
-**Projects**
+**Projects** (example)
 ![Projects – Desktop](./screenshots/d4.png)
 
 **Penjelasan**  
