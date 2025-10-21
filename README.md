@@ -59,7 +59,7 @@ Struktur terdiri dari tiga halaman utama:
 
 ### 1) Home / Landing (index.html)
 **Desktop**
-![Home – Desktop](./screenshots/home-desktop.png)
+![Home – Desktop](./screenshots/html1.png)
 
 **Tablet**
 ![Home – Tablet](./screenshots/home-tablet.png)
