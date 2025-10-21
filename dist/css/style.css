@@ -1,0 +1,185 @@
+/* ================== Base Spacing ================== */
+section{padding-top:100px;padding-bottom:50px}
+
+/* ================== Hero ================== */
+.hero-box .box p{width:500px}
+.hero-box .box img{width:400px}
+.hero-box .box:nth-child(1){--animate-delay:.5s}
+@media (max-width:992px){
+  .hero-box .box p{font-size:14px;width:300px}
+  .hero-box .box img{width:300px}
+}
+@media (max-width:768px){
+  .hero{padding-top:50px}
+  .hero-box{text-align:center}
+  .hero-box .box p{width:100%}
+}
+
+/* ================== About ================== */
+.about-box img{width:400px}
+@media (max-width:475px){.about-box img{width:300px}}
+
+/* ================== Services ================== */
+.services-box .service i{font-size:30px}
+
+/* ================== Footer ================== */
+.footer{margin-top:100px;padding-bottom:20px}
+.footer-box .row .col:nth-child(2) a{opacity:.75}
+.footer-box .row .col:nth-child(2) a:hover{opacity:1}
+.copyright{margin-top:100px}
+
+/* ===================================================== */
+/* ================= Tech Stack (grid logo) ============ */
+/* ===================================================== */
+.techstack .ts-item{transition:transform .25s ease,box-shadow .25s ease;background:#fff;border-radius:1rem}
+.techstack .ts-item:hover{transform:translateY(-4px);box-shadow:0 12px 24px rgba(0,0,0,.08)}
+.techstack .ts-logo{max-height:56px;width:100%;object-fit:contain;display:block;margin-inline:auto;filter:saturate(1.05)}
+.techstack .ts-caption{font-size:.9rem}
+@media (min-width:992px){.techstack .ts-logo{max-height:64px}}
+.techstack .row.g-3{--bs-gutter-y:1rem}
+
+/* ===================================================== */
+/* =============== Projects 6-Card (3x2) =============== */
+/* ===================================================== */
+
+:root{
+  --brand:#2a9df4;          
+  --ink:#0f172a;             
+  --muted:#64748b;          
+  --card-border:rgba(15,23,42,.08);
+  --ring:rgba(5, 146, 254, 0.12);
+}
+
+.projects{
+  position: relative;
+  background:
+    radial-gradient(900px 500px at 95% 5%, rgba(42,157,244,.06), transparent 60%),
+    radial-gradient(900px 500px at 5% 95%, rgba(16,185,129,.05), transparent 60%);
+}
+
+.projects .section-title{
+  letter-spacing:.4px;
+  line-height:1.2;
+}
+.projects .section-subtitle{
+  color:var(--muted);
+  max-width:720px;
+  margin-inline:auto;
+}
+
+/* Card */
+.project-card{
+  position: relative;
+  display:flex; flex-direction:column;
+  border:1px solid var(--card-border);
+  border-radius:16px;
+  background:#fff;
+  transition:transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s, border-color .35s;
+  box-shadow:0 8px 24px rgba(2,6,23,.05);
+}
+.project-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 18px 42px rgba(2,6,23,.10), 0 0 0 8px var(--ring);
+  border-color:rgba(15,23,42,.12);
+}
+
+/* Thumbnail */
+.project-thumb{
+  position:relative; overflow:hidden; border-radius:12px;
+}
+.project-thumb::after{
+  content:""; position:absolute; inset:0;
+  background:linear-gradient(to top, rgba(2,6,23,.28), transparent 60%);
+  opacity:0; transition:opacity .35s;
+}
+.project-thumb img{
+  width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; display:block;
+  transform:scale(1.002); transition:transform .6s cubic-bezier(.2,.8,.2,1);
+}
+.project-card:hover .project-thumb::after{ opacity:1; }
+.project-card:hover .project-thumb img{ transform:scale(1.05); }
+
+/* Text */
+.project-card h6{ color:var(--ink); }
+.project-desc{
+  color:var(--muted);
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+  overflow:hidden; min-height:44px;
+}
+
+/* Chips */
+.tech-chips{ gap:.375rem; }
+.tech-chip{
+  font-size:.72rem; padding:.25rem .55rem; border-radius:999px;
+  background:#f1f5f9; color:#334155; border:1px solid #e2e8f0;
+}
+
+/* Buttons */
+.project-card .btn{
+  border-radius:999px; padding:.4rem .8rem;
+}
+.project-card .btn-dark{
+  background:var(--ink); border-color:var(--ink);
+}
+.project-card .btn-dark:hover{
+  filter:brightness(1.03);
+  transform:translateY(-1px);
+}
+
+/* Small helpers */
+.badge-live{
+  position:absolute; top:.75rem; left:.75rem;
+  background:var(--brand); color:#fff; font-weight:600; font-size:.7rem;
+  border-radius:999px; padding:.25rem .5rem; box-shadow:0 4px 12px rgba(42,157,244,.35);
+}
+
+
+/* teks & tombol diperkecil supaya 6 kartu muat nyaman */
+.projects h1{font-size:clamp(1.1rem,1.8vw,1.6rem);margin-bottom:.25rem}
+.projects p.text-center{font-size:.85rem;margin-bottom:.5rem;opacity:.9}
+.projects h6{font-size:.95rem;margin-bottom:.25rem}
+.projects .project-desc{font-size:.85rem;line-height:1.35;margin-bottom:.5rem}
+.projects .btn{padding:.25rem .5rem;font-size:.8rem}
+
+@media (max-width:576px){
+  #projects.projects{padding-top:40px;padding-bottom:12px}
+}
+
+/* ===================================================== */
+/* =================== Contact (elegan) ================ */
+/* ===================================================== */
+.contact .card{background:#fff;border:1px solid #eee}
+.contact .ci-icon{width:40px;height:40px;font-size:18px}
+.contact .form-control-lg{padding:.8rem .9rem;border:1px solid #e8e8ee}
+.contact .form-control:focus{border-color:#dc3545;box-shadow:0 0 0 .2rem rgba(220,53,69,.15)}
+.contact .btn-danger{box-shadow:0 8px 20px rgba(220,53,69,.25)}
+
+/* ====== Navbar fixed offsets (tambahan minimal) ====== */
+body {
+  padding-top: 80px;            /* sesuaikan jika navbar lebih tinggi */
+}
+
+/* Biar scroll ke anchor (#about, #projects, ...) tidak ketimpa navbar */
+section[id] {
+  scroll-margin-top: 90px;      /* sedikit > tinggi navbar */
+}
+
+/* Opsional: layar kecil */
+@media (max-width: 576px) {
+  body { padding-top: 70px; }
+  section[id] { scroll-margin-top: 80px; }
+}
+
+/* === OVERRIDE: Samakan ukuran judul "Projects" dengan "Tech Stack" === */
+.projects .section-title{
+  font-size: 2.5rem !important;   /* sama seperti h1 Bootstrap */
+  line-height: 1.2;
+  margin-bottom: .5rem;
+}
+
+/* Opsional: kalau di layar lebar ingin sedikit lebih besar */
+@media (min-width: 1200px){
+  .projects .section-title{ font-size: 3rem !important; }
+}
+
+
