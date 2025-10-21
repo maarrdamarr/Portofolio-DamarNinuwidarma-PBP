@@ -36,17 +36,17 @@ Dibangun sederhana (HTML/CSS/JS) dengan fokus **clean UI**, **performant**, dan 
 
 | About | Tech Stack | Projects |
 |---|---|---|
-| ![About Desktop](<assets/screenshots/Cuplikan layar 2025-10-21 222841.png>) | ![Tech Stack Desktop](<assets/screenshots/Cuplikan layar 2025-10-21 222927.png>) | ![Projects Desktop](<assets/screenshots/Cuplikan layar 2025-10-21 222954.png>) |
+| ![About Desktop](<assets/screenshot/Cuplikan layar 2025-10-21 222841.png>) | ![Tech Stack Desktop](<assets/screenshot/Cuplikan layar 2025-10-21 222927.png>) | ![Projects Desktop](<assets/screenshot/Cuplikan layar 2025-10-21 222954.png>) |
 
 | Hero + CTA | Halaman Profil/Kerjasama | Statistik GitHub |
 |---|---|---|
-| ![Hero Desktop](<assets/screenshots/Cuplikan layar 2025-10-21 223037.png>) | ![Index3 Profil/Kerjasama](<assets/screenshots/Cuplikan layar 2025-10-21 223542.png>) | ![Index2 Statistik](<assets/screenshots/Cuplikan layar 2025-10-21 223642.png>) |
+| ![Hero Desktop](<assets/screenshot/Cuplikan layar 2025-10-21 223037.png>) | ![Index3 Profil/Kerjasama](<assets/screenshot/Cuplikan layar 2025-10-21 223542.png>) | ![Index2 Statistik](<assets/screenshot/Cuplikan layar 2025-10-21 223642.png>) |
 
 ### 📱 Tablet/Mobile
 
 | Mobile Hero |
 |---|
-| ![Hero Mobile](<assets/screenshots/Cuplikan layar 2025-10-21 223656.png>) |
+| ![Hero Mobile](<assets/screenshot/Cuplikan layar 2025-10-21 223656.png>) |
 
 > **Tip**: Untuk memastikan tablet look, set browser width ~768–1024px; mobile ~360–430px.
 
