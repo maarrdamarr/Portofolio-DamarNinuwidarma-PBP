@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DamarDProject — Profil, Kerjasama & Kontak</title>
+  <link rel="stylesheet" href="./dist/css/index3.css">
+  <link rel="shortcut icon" href="./assets/icon/dd.png" type="image/x-icon" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <a class="brand" href="#">DamarDProject</a>
+      <nav id="nav" class="nav">
+        <a href="#profil">Profil</a>
+        <a href="#kerjasama">Kerjasama</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <button id="navToggle" class="hamburger" aria-label="Toggle menu">☰</button>
+
+
+      <a class="btn-back" href="./index.html">Kembali</a>
+    </div>
+  </header>
+
+    <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>DamarDProject</h1>
+      <p>Partner pengembangan sistem berbasis <b>Web Development</b>, dashboard elegan,
+        dan solusi edukasi digital.</p>
+      <div class="hero-cta">
+        <a href="#kerjasama" class="btn">Ajukan Kerjasama</a>
+        <a href="#kontak" class="btn btn-outline">Hubungi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profil -->
+  <section id="profil" class="section">
+    <div class="container">
+      <h2>Profil</h2>
+      <p>
+        <b>DamarDProject</b> fokus membangun aplikasi web full-stack.
+      <div class="grid">
+        <div class="card">
+          <h3>Nilai Utama</h3>
+          <ul>
+            <li>Clean code & struktur folder rapi</li>
+            <li>UI sederhana, fokus kegunaan</li>
+            <li>Dokumentasi & template siap salin</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Keahlian</h3>
+          <ul>
+            <li>Laravel 12 + Laragon</li>
+            <li>Blade/Livewire, Tailwind/Bootstrap</li>
+            <li>Auth, roles, laporan (CSV/print)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Komitmen</h3>
+          <p>Kolaboratif, iteratif, dan on-time. Setiap fitur
+            disiapkan agar “tinggal salin” sesuai gaya kerja Damar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kerjasama -->
+  <section id="kerjasama" class="section alt">
+    <div class="container">
+      <h2>Kerjasama</h2>
+      <p>Kami terbuka untuk kolaborasi: pembuatan sistem baru, redesign UI, integrasi role,
+         dan penambahan modul (payslip, CBT, laporan, dsb.). Skema bisa <i>fixed scope</i>
+         atau <i>sprint</i> mingguan.</p>
+
+      <div class="steps">
+        <div class="step">
+          <span class="num">1</span>
+          <h4>Diskusi Kebutuhan</h4>
+          <p>Gali fitur, role, dan target UI biru-putih.</p>
+        </div>
+        <div class="step">
+          <span class="num">2</span>
+          <h4>Rencana & Mockup</h4>
+          <p>Outline halaman, sidebar, dan alur pengguna.</p>
+        </div>
+        <div class="step">
+          <span class="num">3</span>
+          <h4>Implementasi</h4>
+          <p>Code rapi, siap tempel ke proyek Laravel 12.</p>
+        </div>
+        <div class="step">
+          <span class="num">4</span>
+          <h4>Uji & Serah Terima</h4>
+          <p>Testing fungsional + dokumentasi ringkas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="section">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p>Kirim pesan singkat, kami akan membalas secepatnya.</p>
+      <form id="contactForm" class="form">
+        <div class="row">
+          <div class="field">
+            <label>Nama</label>
+            <input type="text" name="nama" placeholder="Nama lengkap" required>
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="nama@email.com" required>
+          </div>
+        </div>
+        <div class="field">
+          <label>Pesan</label>
+          <textarea name="pesan" rows="5" placeholder="Tulis kebutuhan/pertanyaan…" required></textarea>
+        </div>
+        <button type="submit" class="btn">Kirim</button>
+        <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="y"></span> DamarDProject | Damar Ninuwidarma.</small>
+    </div>
+  </footer>
+
+  <script src="./dist/js/index3.js"></script>
+</body>
+</html>
