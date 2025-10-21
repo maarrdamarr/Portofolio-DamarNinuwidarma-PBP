@@ -1,55 +1,135 @@
-# Portofolio — Damar Ninuwidarma (PBP)
+# DamarDProject – Portfolio & Mini Site (HTML/CSS)
 
-Landing page portofolio yang menampilkan profil, tech stack, project kartu, serta statistik GitHub.  
-Dibangun sederhana (HTML/CSS/JS) dengan fokus **clean UI**, **performant**, dan **responsif** (Desktop · Tablet · Mobile).
+Proyek ini adalah halaman portfolio sederhana dengan fokus **ringan, rapi, dan siap-salin**.  
+Struktur terdiri dari tiga halaman utama:
 
----
-
-## ✨ Fitur Utama
-- **Responsive Layout**: Tampilan rapi di desktop, tablet, dan mobile (grid & card auto-wrap).
-- **Navigasi Halus**: Menu ke `About`, `Technical Skill`, `Projects`, dan `Contact`.
-- **Kartu Project**: Icon stack, badge, dan tombol ke GitHub tiap project.
-- **Statistik GitHub**: Bagian ringkas kontribusi, streak, dan bahasa terpakai (di `index2.html`).
-- **Halaman Kerjasama/Profil**: Konten profil, nilai, komitmen, dan CTA (di `index3.html`).
-- **Siap Salin**: Struktur folder rapi, mudah di-deploy ke GitHub Pages / hosting statis.
+- `index.html` – Landing/Portfolio (Home, About, Technical Skill, Projects, Contact)
+- `index2.html` – Statistik Keaktifan (grafik/laporan singkat aktivitas & bahasa yang sering dipakai)
+- `index3.html` – Profil • Kerjasama • Kontak (company/profile style dengan call-to-action)
 
 ---
 
-## 🧭 Daftar Isi
-- [Preview (Desktop/Tablet/Mobile)](#preview-desktoptabletmobile)
-- [Struktur Folder](#struktur-folder)
-- [Cara Menjalankan Lokal](#cara-menjalankan-lokal)
-- [Halaman & Rute](#halaman--rute)
-- [Teknologi](#teknologi)
-- [Cara Menambahkan/ Mengganti Gambar](#cara-menambahkan-mengganti-gambar)
-- [Lisensi](#lisensi)
-- [Demo Video (YouTube)](#demo-video-youtube)
+## 🔧 Tech Stack
+- **HTML5**, **CSS3**, sedikit **JS** seperlunya
+- Komponen UI bergaya **modern** (spacing lapang, rounded, card/shadow lembut)
+- Layout **responsif**: desktop → tablet → mobile (grid kolom menyesuaikan breakpoint)
 
 ---
 
-## Preview (Desktop/Tablet/Mobile)
+## 📁 Struktur Proyek (Ringkas)
 
-> Unggah gambar ke `assets/screenshots/`.  
-> README ini menggunakan **nama file asli** (ber-spasi) dengan pembungkus `<>` agar tetap terbaca di GitHub.
+├─ assets/ # resource untuk halaman (ikon, css/js jika ada)
+├─ dist/ # file CSS/JS hasil pisah dari index (jika dipakai)
+├─ screenshots/ # <— khusus gambar untuk README (bebas nama, bukan "assets")
+├─ index.html
+├─ index2.html
+├─ index3.html
+└─ README.md
 
-### 🖥️ Desktop – beberapa cuplikan
 
-| About | Tech Stack | Projects |
-|---|---|---|
-| ![About Desktop](<assets/screenshot/Cuplikan layar 2025-10-21 222841.png>) | ![Tech Stack Desktop](<assets/screenshot/Cuplikan layar 2025-10-21 222927.png>) | ![Projects Desktop](<assets/screenshot/Cuplikan layar 2025-10-21 222954.png>) |
-
-| Hero + CTA | Halaman Profil/Kerjasama | Statistik GitHub |
-|---|---|---|
-| ![Hero Desktop](<assets/screenshot/Cuplikan layar 2025-10-21 223037.png>) | ![Index3 Profil/Kerjasama](<assets/screenshot/Cuplikan layar 2025-10-21 223542.png>) | ![Index2 Statistik](<assets/screenshot/Cuplikan layar 2025-10-21 223642.png>) |
-
-### 📱 Tablet/Mobile
-
-| Mobile Hero |
-|---|
-| ![Hero Mobile](<assets/screenshot/Cuplikan layar 2025-10-21 223656.png>) |
-
-> **Tip**: Untuk memastikan tablet look, set browser width ~768–1024px; mobile ~360–430px.
+> **Catatan**: Folder `screenshots/` hanya untuk dokumentasi README agar rapi dan tidak bercampur dengan aset website.
 
 ---
 
-## Struktur Folder
+## 💡 Fitur Utama
+
+1. **Landing Portfolio (index.html)**
+   - Hero teks + foto, tombol **Hubungi | kerjasama** dan **GitHub Stats**
+   - Section **About**, **Tech Stack** (kartu-kartu teknologi), **Projects** (kartu proyek), **Contact**
+   - Navigasi anchor (Home, About, Technical Skill, Projects, Contact)
+
+2. **Statistik Keaktifan (index2.html)**
+   - Bagian ringkas: total kontribusi, current/longest streak, breakdown bahasa (bar chart sederhana)
+   - Tombol **Kembali** ke halaman utama
+
+3. **Profil & Kerjasama (index3.html)**
+   - Heading **DamarDProject**, deskripsi singkat layanan, CTA **Ajukan Kerjasama** & **Hubungi Kami**
+   - Cards: **Nilai Utama**, **Keahlian (Laravel 12 + Laragon, Blade/Livewire, Tailwind/Bootstrap, Auth/Roles/Laporan)**, **Komitmen**
+
+4. **Responsif Penuh**
+   - **Desktop**: layout 2–3 kolom (cards leluasa), hero teks + gambar berdampingan
+   - **Tablet**: grid menjadi 2 kolom, ukuran tipografi menyesuaikan
+   - **Mobile**: 1 kolom penuh, navbar ringkas, tombol mudah ditekan
+
+---
+
+## 🖼️ Tangkapan Layar
+
+> Simpan gambar di `./screenshots/` (nama contoh di bawah bisa kamu ganti sesuai file yang kamu upload).
+
+### 1) Home / Landing (index.html)
+**Desktop**
+![Home – Desktop](./screenshots/home-desktop.png)
+
+**Tablet**
+![Home – Tablet](./screenshots/home-tablet.png)
+
+**Mobile**
+![Home – Mobile](./screenshots/home-mobile.png)
+
+**Penjelasan**  
+- **Desktop**: Hero 2 kolom (teks kiri, foto kanan), spacing lapang, tombol CTA jelas.  
+- **Tablet**: Grid menyusut jadi 2 kolom; padding & font-size menyesuaikan.  
+- **Mobile**: Satu kolom penuh untuk keterbacaan; tombol besar dan mudah di-tap.
+
+---
+
+### 2) Tech Stack & Projects (index.html – bagian tengah)
+**Tech Stack**
+![Tech Stack – Desktop](./screenshots/techstack-desktop.png)
+
+**Projects**
+![Projects – Desktop](./screenshots/projects-desktop.png)
+
+**Penjelasan**  
+- **Tech Stack**: Kartu-kartu teknologi dengan icon/logo, bayangan lembut, dan radius besar.  
+- **Projects**: Grid kartu proyek; tiap kartu berisi judul, deskripsi singkat, dan badge/teknologi.
+
+---
+
+### 3) Statistik Keaktifan (index2.html)
+![Statistik Keaktifan](./screenshots/stats-page.png)
+
+**Penjelasan**  
+- Ringkasan kontribusi, streak, dan **Most Used Languages**. Tampilan bersih untuk presentasi cepat.
+
+---
+
+### 4) Profil • Kerjasama • Kontak (index3.html)
+![Profil & Kerjasama](./screenshots/partnership-page.png)
+
+**Penjelasan**  
+- Halaman profil ringkas: nilai utama, keahlian, komitmen. Ada CTA **Ajukan Kerjasama** & **Hubungi Kami**.
+
+---
+
+## ▶️ Cara Menjalankan Secara Lokal
+
+1. Clone / download repo ini.
+2. Buka `index.html` langsung di browser **atau** gunakan ekstensi **Live Server** (VS Code).
+3. Aset tambahan untuk halaman (bila ada) tetap di `assets/` atau `dist/`.  
+   Gambar dokumentasi README tetap di `screenshots/`.
+
+---
+
+## ✏️ Kustomisasi Konten
+
+- **Teks hero, about, dan kontak**: edit langsung di `index.html`.
+- **Kartu Tech Stack & Projects**: duplikasi elemen card, ubah icon/teksnya.
+- **Statistik (index2.html)**: sesuaikan angka/label yang kamu pakai.
+- **Profil (index3.html)**: ubah deskripsi layanan, nilai inti, dan CTA.
+
+---
+
+## 🔗 Tautan Penting
+
+- **Halaman utama**: `index.html`  
+- **Statistik**: `index2.html`  
+- **Profil/Kerjasama**: `index3.html`
+
+---
+
+## 📹 Demo Video
+
+Tonton demo lengkap di YouTube: **[https://youtu.be/ISI-LINK-YT-KAMU](https://youtu.be/ISI-LINK-YT-KAMU)**
+
