@@ -72,6 +72,6 @@ Tampilan Tampilan Tersebut merupakan hasil gambar dari bagaian web ketika di scr
 ---
 
 ## 📹 Demo Video
-Portofolio Web: **(maarrdamarr.wuaze.com)**
+- Portofolio Web: **(https://maarrdamarr.wuaze.com/)**
 Tonton demo lengkap di YouTube: **(https://youtu.be/ltRdCmucKus)**
 
